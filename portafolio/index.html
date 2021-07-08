@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7e8dea668e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="contenedor">
+    <header>
+      <div class="logo">
+        <h1>Edgar Cruz</h1>
+        <p>Desarrollador Web</p>
+      </div>
+      <form action="">
+        <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+      </form>
+      <div class="categorias" id="categorias">
+        <a href="#" class="activo">Todos</a>
+        <a href="#">One Piece</a>
+        <a href="#">Naruto</a>
+        <a href="#">Evangelion</a>
+        <a href="#">One Punch Man</a>
+      </div>
+    </header>
+
+    <section class="grid" id="grid">
+      <div class="item" data-categoria="one piece" data-etiquetas="one piece donflamingo crocodile"
+        data-descripcion="Donflamingo V.S Crocodile">
+        <div class="contenido">
+          <img src="img/1.jpg" alt="donflamingo v.s crocodile">
+        </div>
+      </div>
+      <div class="item" data-categoria="naruto" data-etiquetas="naruto hinata amor"
+        data-descripcion="Hinata I Love Naruto">
+        <div class="contenido">
+          <img src="img/2.jpg" alt="">
+        </div>
+      </div>
+      <div class="item" data-categoria="evangelion" data-etiquetas="evangelion shinji asuka rei"
+        data-descripcion="portada evangelion">
+        <div class="contenido">
+          <img src="img/3.jpg" alt="portada evangelion">
+        </div>
+      </div>
+      <div class="item" data-categoria="one punch man" data-etiquetas="one punch man genos espacio"
+        data-descripcion="Genos el androidee">
+        <div class="contenido">
+          <img src="img/4.jpg" alt="Genos el androidee">
+        </div>
+      </div>
+      <div class="item" data-categoria="one piece" data-etiquetas="one piece luffy ace sabo garp barco"
+        data-descripcion="Familia reunida">
+        <div class="contenido">
+          <img src="img/5.webp" alt="Familia reunida">
+        </div>
+      </div>
+      <div class="item" data-categoria="naruto" data-etiquetas="naruto modo sabio rasegan"
+        data-descripcion="Naciendo la historia de un Heroe">
+        <div class="contenido">
+          <img src="img/6.jpg" alt="Naciendo la historia de un Heroe">
+        </div>
+      </div>
+      <div class="item" data-categoria="evangelion" data-etiquetas="evangelion shinji rei"
+        data-descripcion="Una pareja muy rara">
+        <div class="contenido">
+          <img src="img/7.jpg" alt="Una pareja muy rara">
+        </div>
+      </div>
+      <div class="item" data-categoria="one punch man" data-etiquetas="one punch man fubuki psiquica"
+        data-descripcion="Una hermosa Psiquica">
+        <div class="contenido">
+          <img src="img/8.jpg" alt="Una hermosa Psiquica">
+        </div>
+      </div>
+      <div class="item" data-categoria="one piece" data-etiquetas="one piece robin nami hermosas"
+        data-descripcion="Dos sivas de one piece">
+        <div class="contenido">
+          <img src="img/9.jpg" alt="Dos sivas de one piece">
+        </div>
+      </div>
+      <div class="item" data-categoria="naruto" data-etiquetas="naruto kakashi anbu"
+        data-descripcion="Kakashi el ninja que copia">
+        <div class="contenido">
+          <img src="img/10.jpg" alt="Kakashi el ninja que copia">
+        </div>
+      </div>
+      <div class="item" data-categoria="evangelion" data-etiquetas="evangelion eva demonio"
+        data-descripcion="El eva 01">
+        <div class="contenido">
+          <img src="img/11.png" alt="El eva 01">
+        </div>
+      </div>
+      <div class="item" data-categoria="one punch man" data-etiquetas="one punch man tatsumamaki psiquica"
+        data-descripcion="Una Psiquica muy particular">
+        <div class="contenido">
+          <img src="img/12.jpg" alt="Una Psiquica muy particular">
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="overlay" id="overlay">
+      <div class="contenedor-img">
+        <button class="btn-cerrar-popup" id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+        <img src="" alt="">
+      </div>
+      <p class="descripcion"></p>
+    </section>
+
+    <footer class="contenedor">
+      <div class="redes-sociales">
+        <div class="contenedor-icono">
+          <a href="#" target="blank" class="twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div class="contenedor-icono">
+          <a href="#" target="blank" class="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+        <div class="contenedor-icono">
+          <a href="#" target="blank" class="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="creado-por">
+        <p>Sitio diseñado por <a href="#">Edgar Cruz</a> - <a href="#">NEMESIS</a></p>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

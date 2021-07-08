@@ -1,0 +1,66 @@
+footer {
+  .redes-sociales {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+    a {
+      display: block;
+      width: 60px;
+      height: 60px;
+      background-color: $negro;
+      color: $blanco;
+      margin: 20px;
+      text-align: center;
+      border-radius: 100px;
+      transition: all 0.3s;
+    }
+    :hover a {
+      animation: icono 0.5s ease;
+    }
+
+    @keyframes icono {
+      from {
+        transform: rotate3d(0, 0, 0, 0);
+      }
+
+      to {
+        transform: rotate3d(0, 1, 0, 360deg);
+      }
+    }
+
+    i {
+      font-size: 20px;
+      line-height: 60px;
+    }
+
+    .twitter {
+      background-color: $azul;
+    }
+
+    .facebook {
+      background-color: $azul1;
+    }
+
+    .instagram {
+      background-color: $rosa;
+    }
+  }
+
+  .creado-por {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: $rosa;
+
+    a {
+      color: $negro;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
